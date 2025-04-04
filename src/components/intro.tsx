@@ -72,7 +72,7 @@ export const Intro = () => {
         </Button>
         <Button variant="secondary" size="icon" asChild>
           <a
-            href="https://www.linkedin.com/in/micha%C5%82-skolak-06905524b"
+            href="https://www.linkedin.com/in/oluwadamilaremo/"
             aria-label="Linkedin"
             download
           >
