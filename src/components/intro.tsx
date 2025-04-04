@@ -23,7 +23,7 @@ export const Intro = () => {
           type: 'tween',
           duration: 0.2,
         }}
-        href="https://github.com/Skolaczk/next-starter"
+        href="https://github.com/damilarey-Mo"
         className="bg-muted rounded px-3 py-1 text-sm font-medium"
       >
         🎉
@@ -80,7 +80,7 @@ export const Intro = () => {
           </a>
         </Button>
         <Button variant="secondary" size="icon" asChild>
-          <a href="https://github.com/Skolaczk" aria-label="Github">
+          <a href="https://github.com/damilarey-Mo" aria-label="Github">
             <Icons.github className="size-6" />
           </a>
         </Button>
