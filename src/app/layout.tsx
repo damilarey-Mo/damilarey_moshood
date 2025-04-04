@@ -23,9 +23,6 @@ export const metadata: Metadata = {
     shortcut: '/favicon/favicon-16x16.png',
     apple: '/favicon/apple-touch-icon.png',
   },
-  verification: {
-    google: siteConfig.googleSiteVerificationId,
-  },
 };
 
 const RootLayout = ({ children }: PropsWithChildren) => {
