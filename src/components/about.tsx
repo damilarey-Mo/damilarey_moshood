@@ -21,21 +21,21 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          I&apos;m Michał Skolak, I&apos;m a front-end developer from Poland.
-          I&apos;ve been learning programming for over 3 years. After I started
-          high school, I decided to pursue my passion for programming. My
-          favorite part of programming is the problem-solving aspect. I love the
-          feeling of finally figuring out a solution to a problem. I&apos;ve had
-          the opportunity to work on several exciting projects during my
-          learning journey, ranging from personal projects to collaborative
-          ventures. My core stack is React, Next.js, TypeScript, and Tailwind
-          CSS. I am also familiar with Nest.js and Prisma. I&apos;m always
-          looking to learn new technologies.
+          I&apos;m a passionate Full Stack Web Developer and IT Manager based in
+          Nigeria. With over 5 years of experience, I specialize in building
+          robust, scalable web applications and managing IT systems that support
+          business growth. I’ve led successful web platform upgrades,
+          implemented advanced analytics, and overseen cybersecurity
+          improvements for organizations.
         </p>
         <p>
-          I&apos;m open to Job opportunities where I can contribute, learn and
-          grow. If you have a good opportunity that matches my skills and
-          experience then don&apos;t hesitate to contact me.
+          My core stack includes React, Next.js, Node.js, MongoDB, and Tailwind
+          CSS. I’m also experienced in WordPress, Elementor, and modern DevOps
+          tools. Whether it’s optimizing digital operations or crafting seamless
+          user experiences, I bring a problem-solving mindset and
+          business-oriented approach to every project. I’m open to opportunities
+          where I can deliver value, lead innovations, and grow with
+          forward-thinking teams.
         </p>
       </div>
       <Skills />

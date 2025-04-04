@@ -44,7 +44,7 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-lg"
       >
-        Hello, I&apos;m Michał. I am front-end developer from Poland. I enjoy
+        Hello, I&apos;m Damilarey. I am front-end developer from Poland. I enjoy
         building sites and apps. My focus is React (Next.js).
       </motion.p>
       <motion.div
@@ -66,7 +66,7 @@ export const Intro = () => {
           className="hidden sm:flex"
           asChild
         >
-          <a href="/michalskolak.pdf" download>
+          <a href="/damilarey.pdf" download>
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>

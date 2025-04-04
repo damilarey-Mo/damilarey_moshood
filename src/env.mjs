@@ -1,15 +1,18 @@
-import { createEnv } from '@t3-oss/env-nextjs';
+// env.mjs or env.ts
 import { z } from 'zod';
 
-export const env = createEnv({
-  server: {
-    SITE_URL: z.string().url().optional(),
-    GOOGLE_SITE_VERIFICATION_ID: z.string().min(1).optional(),
-    RESEND_API_KEY: z.string().min(1).optional(),
-  },
-  runtimeEnv: {
-    SITE_URL: process.env.SITE_URL,
-    GOOGLE_SITE_VERIFICATION_ID: process.env.GOOGLE_SITE_VERIFICATION_ID,
-    RESEND_API_KEY: process.env.RESEND_API_KEY,
-  },
+// Define schema
+const envSchema = z.object({
+  RESEND_API_KEY: z.string().min(1, 'RESEND_API_KEY is required'),
 });
+
+// Parse and validate the environment variables
+const env = envSchema.safeParse(process.env);
+
+if (!env.success) {
+  console.error('❌ Invalid environment variables:', env.error.format());
+  throw new Error('Missing or invalid environment variables.');
+}
+
+// Export the validated env
+export const ENV = env.data;
