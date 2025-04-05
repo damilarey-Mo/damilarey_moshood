@@ -34,8 +34,7 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="text-3xl font-bold leading-tight tracking-tighter sm:text-4xl"
       >
-        Empowering Brands Through Innovative High-Performing and Scalable
-        Digital Solutions
+        Hello, I&apos;m Damilarey, a Full Stack Web Developer and IT Specialist.
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -45,8 +44,8 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-lg"
       >
-        Hello, I&apos;m Damilarey. I am front-end developer from Poland. I enjoy
-        building sites and apps. My focus is React (Next.js).
+        Empowering Brands Through Innovative High-Performing and Scalable
+        Digital Solutions
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
