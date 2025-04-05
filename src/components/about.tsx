@@ -24,10 +24,10 @@ export const About = () => {
           I&apos;m a result-driven Full Stack Web Developer and IT Specialist.
           With over 5 years of experience, I specialize in building scalable web
           Solutions and providing IT support Services that support business
-          business growth. I&apos;ve led successful web platform developments,
-          upgrades and managements. I specialize in integrating advanced
-          analytics, web performance tracking, and cybersecurity enhancements to
-          help organizations stay ahead of the curve.
+          growth. I&apos;ve led successful web platform developments, upgrades
+          and managements. I specialize in integrating advanced analytics, web
+          performance tracking, and cybersecurity enhancements to help
+          organizations stay ahead of the curve.
         </p>
         <p>
           My core stack includes React, Next.js, Node.js, MongoDB, and Tailwind
