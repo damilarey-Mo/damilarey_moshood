@@ -10,12 +10,7 @@ import { Button, ButtonProps } from '@/components/button';
 export const LogoIcons: React.FC<ButtonProps> = ({ className }) => {
   return (
     <Link href="#home">
-      <Button
-        className={className}
-        variant="secondary"
-        size="icon"
-        aria-label="Home"
-      >
+      <Button className={className} variant="secondary" size="icon">
         <LogoIconDark className="size-5 dark:hidden" />
         <LogoIconLight className="hidden size-5 dark:block" />
       </Button>
