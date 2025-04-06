@@ -4,6 +4,7 @@ import { Experience } from '@/components/experience';
 import { Footer } from '@/components/footer';
 import { Header } from '@/components/header';
 import { Intro } from '@/components/intro';
+import { LogoIcons } from '@/components/logo';
 import { Projects } from '@/components/projects';
 import { SectionDivider } from '@/components/section-divider';
 import { ThemeToggle } from '@/components/theme-toggle';
@@ -14,6 +15,7 @@ const HomePage = async () => {
 
   return (
     <>
+      <LogoIcons className="hidden sm:fixed sm:left-52 sm:top-12 sm:flex" />
       <div className="container flex flex-col items-center">
         <Header />
         <Intro />

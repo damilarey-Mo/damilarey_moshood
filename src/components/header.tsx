@@ -6,14 +6,9 @@ import Link from 'next/link';
 
 import { useActiveSection } from '@/components/active-section-provider';
 import { Button } from '@/components/button';
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/dialog';
+import { Dialog, DialogContent, DialogTrigger } from '@/components/dialog';
 import { Icons } from '@/components/icons';
+import { LogoIcons } from '@/components/logo';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { links } from '@/lib/data';
 
@@ -35,11 +30,6 @@ export const Header = () => {
           </Button>
         </DialogTrigger>
         <DialogContent className="text-muted-foreground max-h-screen w-[90%] rounded">
-          <DialogHeader>
-            <DialogTitle className="text-md self-start font-medium">
-              Navigation
-            </DialogTitle>
-          </DialogHeader>
           <nav>
             <ul>
               {links.map(({ name, hash }) => (
@@ -58,6 +48,7 @@ export const Header = () => {
         </DialogContent>
       </Dialog>
       <ThemeToggle className="sm:hidden" />
+      <LogoIcons className="sm:hidden" />
       <nav className="text-muted-foreground hidden text-sm sm:block">
         <ul className="flex gap-5">
           {links.map(({ name, hash }) => (
