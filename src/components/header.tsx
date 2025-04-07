@@ -23,6 +23,7 @@ export const Header = () => {
       animate={{ y: 0, opacity: 1 }}
       className="sm:bg-secondary/80 sticky top-5 z-20 my-5 flex items-center gap-2 sm:top-10 sm:my-10 sm:rounded-full sm:px-2 sm:py-3 sm:backdrop-blur-sm"
     >
+      <LogoIcons className="sm:hidden" />
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogTrigger asChild>
           <Button variant="secondary" size="lg" className="sm:hidden">
@@ -48,7 +49,6 @@ export const Header = () => {
         </DialogContent>
       </Dialog>
       <ThemeToggle className="sm:hidden" />
-      <LogoIcons className="sm:hidden" />
       <nav className="text-muted-foreground hidden text-sm sm:block">
         <ul className="flex gap-5">
           {links.map(({ name, hash }) => (
