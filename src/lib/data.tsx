@@ -58,7 +58,7 @@ export const projectsData = [
     ],
     links: {
       preview: 'https://next-starter-skolaczk.vercel.app',
-      github: 'https://github.com/damilarey-Mo',
+      github: 'https://github.com/damilarey-Mo/Take-Note',
       githubApi: 'https://api.github.com/repos/Skolaczk/next-starter',
     },
   },
@@ -75,7 +75,7 @@ export const projectsData = [
     ],
     links: {
       preview: 'https://audiophile-ms.netlify.app/',
-      github: 'https://github.com/damilarey-Mo',
+      github: 'https://github.com/damilarey-Mo/Take-Note',
       githubApi: 'https://api.github.com/repos/Skolaczk/Audiophile',
     },
   },
