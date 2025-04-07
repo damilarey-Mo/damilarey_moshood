@@ -1,4 +1,5 @@
 import { Icons } from '@/components/icons';
+import { CgLogo } from '@/components/logoicon';
 
 export const links = [
   {
@@ -25,14 +26,21 @@ export const links = [
 
 export const projectsData = [
   {
-    icon: <Icons.socialhub width={32} height={32} />,
-    title: 'SocialHub',
+    icon: <CgLogo width={32} height={32} />,
+    title: 'Crownedgear Luxury',
     description:
-      'Next-generation social media app, built with its own backend.',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+      'e-commerce Website for a global luxury street fashion Brand. Built with React while using Wordpress as CMS',
+    technologies: [
+      'Wordpress',
+      'React.js',
+      'JavaScript',
+      'JQuery',
+      'SQL',
+      'PHP',
+      'Tailwind CSS',
+    ],
     links: {
-      preview: 'https://socialhub-ms.vercel.app/',
-      github: 'https://github.com/damilarey-Mo',
+      preview: 'https://crownedgear.com',
       githubApi: 'https://api.github.com/repos/Skolaczk/SocialHub',
     },
   },
