@@ -41,6 +41,7 @@ export const projectsData = [
     ],
     links: {
       preview: 'https://crownedgear.com',
+      github: 'https://github.com/your/repo',
       githubApi: 'https://api.github.com/repos/Skolaczk/SocialHub',
     },
   },
