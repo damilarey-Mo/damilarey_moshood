@@ -56,7 +56,7 @@ export const Intro = () => {
         className="flex flex-row gap-2"
       >
         <Button asChild size="lg">
-          <Link href="mailto:hello@damilarey.dev?subject=Hiring%20a%20Full%20Stack%20Dev&body=Hi%20Damilarey,%0A%0AI'd%20love%20to%20discuss%20a%20project%20with%20you.%20Here's%20some%20info%20about%20what%20I'm%20looking%20for...">
+          <Link href="mailto:damilarey.moshood@gmail.com?subject=Hiring%20a%20Full%20Stack%20Dev&body=Hi%20Damilarey,%0A%0AI'd%20love%20to%20discuss%20a%20project%20with%20you.%20Here's%20some%20info%20about%20what%20I'm%20looking%20for...">
             Get in touch <Icons.arrowRight className="ml-2 size-4" />
           </Link>
         </Button>
@@ -67,7 +67,7 @@ export const Intro = () => {
           asChild
         >
           <a href="/damilarey.pdf" download>
-            Download CV <Icons.download className="ml-2 size-4" />
+            Review Resume <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
         <Button variant="secondary" size="icon" asChild>
