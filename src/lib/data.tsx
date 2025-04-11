@@ -140,7 +140,6 @@ export const skillsData = [
   { icon: <Icons.tailwind className="size-12" /> },
   { icon: <Icons.php className="size-12" /> },
   { icon: <Icons.javascript className="size-12" /> },
-  { icon: <Icons.typescript className="size-12" /> },
   { icon: <Icons.python className="size-12" /> },
   { icon: <Icons.figma className="size-12" /> },
   { icon: <Icons.framer className="size-12" /> },
