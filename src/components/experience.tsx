@@ -22,36 +22,49 @@ export const Experience = () => {
     <section ref={sectionRef} id="experience" className="my-10 scroll-mt-28">
       <SectionHeading
         heading="My Experience"
-        content="Professional experience that I have accumulated over several years."
+        content="My Journey of Proven Excellence in IT & Web Solutions"
       />
       <VerticalTimeline lineColor="hsl(var(--muted))">
-        {experiencesData.map(({ title, description, location, date }) => (
-          <VerticalTimelineElement
-            key={title}
-            visible={inView}
-            contentStyle={{
-              background: 'hsl(var(--secondary))',
-              boxShadow: 'none',
-              padding: '20px',
-            }}
-            contentArrowStyle={{ display: 'none' }}
-            date={date}
-            dateClassName="!font-medium text-muted-foreground"
-            icon={<Icons.briefcase />}
-            iconStyle={{
-              boxShadow: 'none',
-              border: '2px solid hsl(var(--foreground)',
-            }}
-          >
-            <h3 ref={ref} className="font-medium">
-              {title}
-            </h3>
-            <p className="!mt-0 !font-normal">{location}</p>
-            <p className="text-muted-foreground !mt-1 !font-normal">
-              {description}
-            </p>
-          </VerticalTimelineElement>
-        ))}
+        {experiencesData.map(
+          ({ title, description, location, date, keyContributions }) => (
+            <VerticalTimelineElement
+              key={title}
+              visible={inView}
+              contentStyle={{
+                background: 'hsl(var(--secondary))',
+                boxShadow: 'none',
+                padding: '20px',
+              }}
+              contentArrowStyle={{ display: 'none' }}
+              date={date}
+              dateClassName="!font-medium text-muted-foreground"
+              icon={<Icons.briefcase />}
+              iconStyle={{
+                boxShadow: 'none',
+                border: '2px solid hsl(var(--foreground)',
+              }}
+            >
+              <h3 ref={ref} className="font-medium">
+                {title}
+              </h3>
+              <p className="!mt-0 !font-normal">{location}</p>
+              <p className="text-muted-foreground !mt-1 !font-normal">
+                {description}
+              </p>
+
+              {keyContributions && keyContributions.length > 0 && (
+                <div className="mt-3">
+                  <h4 className="font-semibold">Key Contributions:</h4>
+                  <ul className="text-muted-foreground mt-1 list-inside list-disc text-sm">
+                    {keyContributions.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </VerticalTimelineElement>
+          )
+        )}
       </VerticalTimeline>
     </section>
   );

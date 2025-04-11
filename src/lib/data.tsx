@@ -41,7 +41,7 @@ export const projectsData = [
     ],
     links: {
       preview: 'https://crownedgear.com',
-      github: 'https://github.com/your/repo',
+      github: 'https://github.com/your/repo', // 👈 Add this line
       githubApi: 'https://api.github.com/repos/Skolaczk/SocialHub',
     },
   },
@@ -81,42 +81,75 @@ export const projectsData = [
     },
   },
 ] as const;
-
+export type ExperienceItem = {
+  title: string;
+  location: string;
+  description: string;
+  date: string;
+  keyContributions: string[];
+};
 export const experiencesData = [
   {
-    title: 'Internship at WEB-BOX',
-    location: 'Tarnobrzeg, PL',
+    title: 'Crownedgear Luxury',
+    location: 'IT Manager & Web Management Team Lead',
     description:
-      'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
-    date: '2023',
+      'Pioneered the digital transformation of a luxury fashion brand by integrating scalable IT infrastructure, modern e-commerce solutions, and high-performing web technologies.',
+    date: '2023 - 2025',
+    keyContributions: [
+      'Migrated core systems to the cloud, improving uptime, speed, and data security across multiple touchpoints.',
+      'Engineered and deployed a modern, automated backup and disaster recovery system to ensure business continuity, data integrity, and rapid recovery in the event of system failures or cyber incidents.',
+      'Led the complete redesign and relaunch of the company’s e-commerce platform, improving customer engagement and online sales.',
+      'Implemented advanced data analytics to drive smarter business decisions, inventory forecasting, and customer behavior tracking.',
+      'Established a robust cybersecurity framework, conducting regular vulnerability assessments and enforcing best practices.',
+      'Negotiated contracts with IT vendors and managed cybersecurity initiatives to protect sensitive customer and business data',
+      'Played a key role in improving operational efficiency, reducing downtime, and optimizing internal workflows.',
+    ],
   },
   {
-    title: 'Internship at Chop-Chop',
-    location: 'Remote',
+    title: 'Fredacom',
+    location: 'Full Stack Developer & Technical Support Specialist',
     description:
-      'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
-    date: '2024',
+      'Built and supported mission-critical web solutions while providing high-level tech support to internal and external users.',
+    date: '2022-2023',
+    keyContributions: [
+      'Developed dynamic web platforms using React, Node.js, MongoDB, and Express, tailored to client business needs.',
+      'Delivered end-to-end technical support services, from remote diagnostics to onsite issue resolution.',
+      'Conducted user research and provided feedback that improved product usability.',
+      'Integrated website monitoring tools to track performance, security threats, and user experience issues.',
+      'Mentored junior developers and helped standardize development workflows and documentation',
+      'Played a key role in improving operational efficiency, reducing downtime, and optimizing internal workflows',
+    ],
   },
   {
-    title: 'Freelancing',
-    location: 'Remote',
+    title: 'Value Konnect Africa',
+    location: 'Intern & Graduate Trainee (Tech & Strategy)',
     description:
-      'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
-    date: '2023 - present',
+      'Contributed to digital innovation projects for SMEs and NGOs, supporting their transition into the digital economy.',
+    date: '2021-2022',
+    keyContributions: [
+      'Supported web-based platform development using WordPress and low-code tools.',
+      'Assisted in designing digital transformation strategies for local businesses.',
+      'Conducted user research and provided feedback that improved product usability.',
+    ],
   },
 ] as const;
 
 export const skillsData = [
   { icon: <Icons.html className="size-12" /> },
   { icon: <Icons.css className="size-12" /> },
-  { icon: <Icons.sass className="size-12" /> },
+  { icon: <Icons.shopify className="size-12" /> },
   { icon: <Icons.tailwind className="size-12" /> },
+  { icon: <Icons.php className="size-12" /> },
   { icon: <Icons.javascript className="size-12" /> },
   { icon: <Icons.typescript className="size-12" /> },
+  { icon: <Icons.figma className="size-12" /> },
+  { icon: <Icons.framer className="size-12" /> },
   { icon: <Icons.react className="size-12" /> },
+  { icon: <Icons.bootstrap className="size-12" /> },
+  { icon: <Icons.wordpress className="size-12" /> },
   { icon: <Icons.redux className="size-12" /> },
   { icon: <Icons.nextjs className="size-12" /> },
   { icon: <Icons.nestjs className="size-12" /> },
-  { icon: <Icons.prisma className="size-12" /> },
+  { icon: <Icons.python className="size-12" /> },
   { icon: <Icons.docker className="size-12" /> },
 ] as const;
