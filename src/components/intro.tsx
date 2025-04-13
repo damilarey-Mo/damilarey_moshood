@@ -67,7 +67,7 @@ export const Intro = () => {
           asChild
         >
           <a href="/damilarey.pdf" download>
-            Review Resume <Icons.download className="ml-2 size-4" />
+            View Resume <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
         <Button variant="secondary" size="icon" asChild>

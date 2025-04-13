@@ -29,7 +29,7 @@ export const projectsData = [
     icon: <CgLogo width={32} height={32} />,
     title: 'Crownedgear Luxury',
     description:
-      'e-commerce Website for a global luxury street fashion Brand. Built with React while using Wordpress as CMS',
+      'An enterprise-grade, responsive e-commerce platform developed for Crownedgear Luxury, designed to reflect the brand’s premium image while delivering top-tier user experience and performance',
     technologies: [
       'Wordpress',
       'React.js',
@@ -46,21 +46,15 @@ export const projectsData = [
     },
   },
   {
-    icon: <Icons.nextstarter width={32} height={32} />,
-    title: 'Next-starter',
-    description: 'Next.js starter template, packed with useful features.',
-    technologies: [
-      'Next.js',
-      'TypeScript',
-      'Tailwind',
-      'Shadcn/ui',
-      'Next-auth',
-      'Prisma',
-    ],
+    icon: <Icons.tailwind width={32} height={32} />,
+    title: 'Chocolate City Music',
+    description:
+      'A dynamic, modern web platform for Africa’s iconic record label — built to spotlight artists, releases, and events. Designed with speed, scalability, and seamless integration in mind, it delivers an engaging experience for fans worldwide.',
+    technologies: ['Wordpress', 'JavaScript Library', 'Tailwind', 'PHP', 'SQL'],
     links: {
-      preview: 'https://next-starter-skolaczk.vercel.app',
+      preview: 'https://chocolatecitymusic.com',
       github: 'https://github.com/damilarey-Mo/Take-Note',
-      githubApi: 'https://api.github.com/repos/Skolaczk/next-starter',
+      githubApi: 'https://api.github.com/repos/Skolaczk/next-starte',
     },
   },
   {
